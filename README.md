@@ -35,7 +35,7 @@ Si el repositorio tiene otro nombre, no se mostrara automaticamente en tu perfil
 
 1. Lee [docs/guia-paso-a-paso.md](docs/guia-paso-a-paso.md).
 2. Crea un repositorio publico con el mismo nombre exacto que tu usuario de GitHub.
-3. Llena primero [plantilla/DATOS-PERFIL.md](plantilla/DATOS-PERFIL.md) con tu informacion.
+3. Llena primero [plantillas/DATOS-PERFIL.md](plantillas/DATOS-PERFIL.md) con tu informacion.
 4. Revisa los tipos disponibles en [plantillas/README.md](plantillas/README.md).
 5. Escoge una plantilla y copia su contenido.
 6. Pegalo en el `README.md` de tu repositorio personal.
@@ -48,18 +48,20 @@ Si el repositorio tiene otro nombre, no se mostrara automaticamente en tu perfil
 ```text
 campuslands-github-profile-template/
 ├── README.md
-├── plantilla/
-│   ├── README-PERFIL.md
-│   ├── DATOS-PERFIL.md
-│   └── VARIABLES.md
 ├── plantillas/
 │   ├── README.md
+│   ├── README-PERFIL.md
+│   ├── DATOS-PERFIL.md
+│   ├── VARIABLES.md
 │   ├── corporativa-clasica.md
-│   ├── estilo-andre.md
+│   ├── estilo-graficos.md
 │   ├── visual-graficos.md
 │   └── compacta-reclutador.md
 ├── ejemplos/
-│   └── perfil-corporativo-guatemala.md
+│   ├── corporativa-clasica.md
+│   ├── estilo-graficos.md
+│   ├── visual-graficos.md
+│   └── compacta-reclutador.md
 ├── docs/
 │   ├── guia-paso-a-paso.md
 │   ├── checklist-final.md
@@ -105,7 +107,7 @@ Cada estudiante debe cambiar:
 - `{{STACK_HERRAMIENTAS}}`
 - `{{SKILLICONS_LIST}}`
 
-El archivo [plantilla/VARIABLES.md](plantilla/VARIABLES.md) explica cada variable.
+El archivo [plantillas/VARIABLES.md](plantillas/VARIABLES.md) explica cada variable.
 
 ## Tipos de plantillas
 
@@ -114,11 +116,22 @@ El repositorio incluye varias opciones con las mismas variables:
 | Tipo | Archivo | Uso recomendado |
 |---|---|---|
 | Corporativa clasica | [plantillas/corporativa-clasica.md](plantillas/corporativa-clasica.md) | Perfil serio para procesos formales |
-| Estilo Andre | [plantillas/estilo-andre.md](plantillas/estilo-andre.md) | Perfil visual, completo, con badges, tablas y graficos |
+| Estilo graficos | [plantillas/estilo-graficos.md](plantillas/estilo-graficos.md) | Perfil visual, completo, con badges, tablas y graficos |
 | Visual con graficos | [plantillas/visual-graficos.md](plantillas/visual-graficos.md) | Perfil moderno con estadisticas automaticas |
 | Compacta reclutador | [plantillas/compacta-reclutador.md](plantillas/compacta-reclutador.md) | Perfil directo para lectura rapida |
 
 Guia para decidir: [docs/elegir-plantilla.md](docs/elegir-plantilla.md).
+
+## Ejemplos disponibles
+
+Cada plantilla tiene un ejemplo ya completado para que el alumno pueda comparar antes de elegir:
+
+| Plantilla | Ejemplo |
+|---|---|
+| Corporativa clasica | [ejemplos/corporativa-clasica.md](ejemplos/corporativa-clasica.md) |
+| Estilo graficos | [ejemplos/estilo-graficos.md](ejemplos/estilo-graficos.md) |
+| Visual con graficos | [ejemplos/visual-graficos.md](ejemplos/visual-graficos.md) |
+| Compacta reclutador | [ejemplos/compacta-reclutador.md](ejemplos/compacta-reclutador.md) |
 
 ## Resultado esperado
 

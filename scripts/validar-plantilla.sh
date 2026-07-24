@@ -3,15 +3,18 @@ set -euo pipefail
 
 required_files=(
   "README.md"
-  "plantilla/README-PERFIL.md"
-  "plantilla/DATOS-PERFIL.md"
-  "plantilla/VARIABLES.md"
   "plantillas/README.md"
+  "plantillas/README-PERFIL.md"
+  "plantillas/DATOS-PERFIL.md"
+  "plantillas/VARIABLES.md"
   "plantillas/corporativa-clasica.md"
-  "plantillas/estilo-andre.md"
+  "plantillas/estilo-graficos.md"
   "plantillas/visual-graficos.md"
   "plantillas/compacta-reclutador.md"
-  "ejemplos/perfil-corporativo-guatemala.md"
+  "ejemplos/corporativa-clasica.md"
+  "ejemplos/estilo-graficos.md"
+  "ejemplos/visual-graficos.md"
+  "ejemplos/compacta-reclutador.md"
   "docs/guia-paso-a-paso.md"
   "docs/checklist-final.md"
   "docs/elegir-plantilla.md"
@@ -26,16 +29,25 @@ for file in "${required_files[@]}"; do
   fi
 done
 
-if ! grep -q "{{NOMBRE_COMPLETO}}" plantilla/README-PERFIL.md; then
+if [[ -d "plantilla" ]]; then
+  echo "No debe existir la carpeta plantilla. Todo debe vivir en plantillas."
+  exit 1
+fi
+
+if ! grep -q "{{NOMBRE_COMPLETO}}" plantillas/README-PERFIL.md; then
   echo "La plantilla debe conservar variables editables."
   exit 1
 fi
 
-for file in plantillas/*.md; do
-  if [[ "$file" == "plantillas/README.md" ]]; then
-    continue
-  fi
+template_files=(
+  "plantillas/README-PERFIL.md"
+  "plantillas/corporativa-clasica.md"
+  "plantillas/estilo-graficos.md"
+  "plantillas/visual-graficos.md"
+  "plantillas/compacta-reclutador.md"
+)
 
+for file in "${template_files[@]}"; do
   if ! grep -q "{{NOMBRE_COMPLETO}}" "$file"; then
     echo "La plantilla $file debe usar las variables comunes."
     exit 1
@@ -47,7 +59,12 @@ for file in plantillas/*.md; do
   fi
 done
 
-if grep -R "empleado" README.md plantilla plantillas docs ejemplos >/dev/null 2>&1; then
+if grep -R "estilo-andre\\|Estilo Andre\\|plantilla/" README.md plantillas docs ejemplos >/dev/null 2>&1; then
+  echo "Hay referencias antiguas a plantilla/ o estilo-andre."
+  exit 1
+fi
+
+if grep -R "empleado" README.md plantillas docs ejemplos >/dev/null 2>&1; then
   echo "Evita lenguaje no alineado. Usa estudiante, alumno o colaborador segun contexto."
   exit 1
 fi
