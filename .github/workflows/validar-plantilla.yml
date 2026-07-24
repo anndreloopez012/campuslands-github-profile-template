@@ -1,0 +1,22 @@
+name: Validar plantilla
+
+on:
+  pull_request:
+    branches:
+      - dev
+      - main
+  push:
+    branches:
+      - dev
+      - main
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Validar estructura de la plantilla
+        run: bash scripts/validar-plantilla.sh
+
