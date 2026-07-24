@@ -35,11 +35,13 @@ Si el repositorio tiene otro nombre, no se mostrara automaticamente en tu perfil
 
 1. Lee [docs/guia-paso-a-paso.md](docs/guia-paso-a-paso.md).
 2. Crea un repositorio publico con el mismo nombre exacto que tu usuario de GitHub.
-3. Copia el contenido de [plantilla/README-PERFIL.md](plantilla/README-PERFIL.md).
-4. Pegalo en el `README.md` de tu repositorio personal.
-5. Cambia todos los valores entre `{{ }}` por tu informacion real.
-6. Revisa [docs/checklist-final.md](docs/checklist-final.md).
-7. Haz commit y push.
+3. Llena primero [plantilla/DATOS-PERFIL.md](plantilla/DATOS-PERFIL.md) con tu informacion.
+4. Revisa los tipos disponibles en [plantillas/README.md](plantillas/README.md).
+5. Escoge una plantilla y copia su contenido.
+6. Pegalo en el `README.md` de tu repositorio personal.
+7. Cambia todos los valores entre `{{ }}` por tu informacion real.
+8. Revisa [docs/checklist-final.md](docs/checklist-final.md).
+9. Haz commit y push.
 
 ## Estructura del repositorio
 
@@ -48,13 +50,21 @@ campuslands-github-profile-template/
 ├── README.md
 ├── plantilla/
 │   ├── README-PERFIL.md
+│   ├── DATOS-PERFIL.md
 │   └── VARIABLES.md
+├── plantillas/
+│   ├── README.md
+│   ├── corporativa-clasica.md
+│   ├── estilo-andre.md
+│   ├── visual-graficos.md
+│   └── compacta-reclutador.md
 ├── ejemplos/
 │   └── perfil-corporativo-guatemala.md
 ├── docs/
 │   ├── guia-paso-a-paso.md
 │   ├── checklist-final.md
 │   ├── como-elegir-tecnologias.md
+│   ├── elegir-plantilla.md
 │   └── buenas-practicas-corporativas.md
 ├── scripts/
 │   └── validar-plantilla.sh
@@ -87,8 +97,28 @@ Cada estudiante debe cambiar:
 - `{{PROYECTOS_DESTACADOS}}`
 - `{{AREA_DE_INTERES}}`
 - `{{DISPONIBILIDAD}}`
+- `{{TITULAR_PROFESIONAL}}`
+- `{{RESUMEN_PROFESIONAL}}`
+- `{{STACK_FRONTEND}}`
+- `{{STACK_BACKEND}}`
+- `{{STACK_BASES_DATOS}}`
+- `{{STACK_HERRAMIENTAS}}`
+- `{{SKILLICONS_LIST}}`
 
 El archivo [plantilla/VARIABLES.md](plantilla/VARIABLES.md) explica cada variable.
+
+## Tipos de plantillas
+
+El repositorio incluye varias opciones con las mismas variables:
+
+| Tipo | Archivo | Uso recomendado |
+|---|---|---|
+| Corporativa clasica | [plantillas/corporativa-clasica.md](plantillas/corporativa-clasica.md) | Perfil serio para procesos formales |
+| Estilo Andre | [plantillas/estilo-andre.md](plantillas/estilo-andre.md) | Perfil visual, completo, con badges, tablas y graficos |
+| Visual con graficos | [plantillas/visual-graficos.md](plantillas/visual-graficos.md) | Perfil moderno con estadisticas automaticas |
+| Compacta reclutador | [plantillas/compacta-reclutador.md](plantillas/compacta-reclutador.md) | Perfil directo para lectura rapida |
+
+Guia para decidir: [docs/elegir-plantilla.md](docs/elegir-plantilla.md).
 
 ## Resultado esperado
 
@@ -107,4 +137,3 @@ Al finalizar, el estudiante debe tener:
 Empieza usando la plantilla completa. Despues elimina lo que no aplique a tu perfil.
 
 Un buen perfil no es el que tiene mas iconos. Un buen perfil es el que comunica con claridad que sabes hacer, que estas construyendo y como puedes aportar.
-

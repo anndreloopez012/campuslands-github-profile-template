@@ -35,17 +35,52 @@ Repositorio: maria-lopez-dev
 
 Si el nombre no coincide exactamente, GitHub no mostrara el README en tu perfil.
 
-## 3. Copia la plantilla
+## 3. Llena tus datos base
 
 Abre:
 
 ```text
-plantilla/README-PERFIL.md
+plantilla/DATOS-PERFIL.md
+```
+
+Completa los valores con tu informacion real.
+
+Este archivo te sirve como borrador central. Las plantillas usan las mismas variables.
+
+## 4. Escoge una plantilla
+
+Abre:
+
+```text
+plantillas/README.md
+```
+
+Elige una opcion:
+
+- corporativa clasica
+- estilo Andre
+- visual con graficos
+- compacta para reclutador
+
+Tambien puedes leer:
+
+```text
+docs/elegir-plantilla.md
+```
+
+## 5. Copia la plantilla
+
+Abre:
+
+```text
+plantillas/corporativa-clasica.md
 ```
 
 Copia todo el contenido y pegalo en el `README.md` de tu repositorio personal.
 
-## 4. Cambia las variables
+Si quieres otro estilo, copia cualquiera de los archivos dentro de `plantillas/`.
+
+## 6. Cambia las variables
 
 Busca todos los textos que tengan este formato:
 
@@ -67,7 +102,7 @@ Debe quedar asi:
 Maria Lopez
 ```
 
-## 5. Elige tus tecnologias reales
+## 7. Elige tus tecnologias reales
 
 La plantilla trae muchas tecnologias para que tengas opciones.
 
@@ -75,7 +110,7 @@ Debes borrar las que no uses.
 
 No publiques un perfil con 25 tecnologias si solo puedes explicar 5.
 
-## 6. Agrega proyectos reales
+## 8. Agrega proyectos reales
 
 Cada proyecto debe tener:
 
@@ -100,7 +135,7 @@ api-gestion-tareas
 dashboard-ventas
 ```
 
-## 7. Revisa el perfil antes de publicarlo
+## 9. Revisa el perfil antes de publicarlo
 
 Usa el checklist:
 
@@ -108,7 +143,7 @@ Usa el checklist:
 docs/checklist-final.md
 ```
 
-## 8. Guarda los cambios
+## 10. Guarda los cambios
 
 Si trabajas desde terminal:
 
@@ -118,7 +153,7 @@ git commit -m "docs: actualiza perfil profesional"
 git push
 ```
 
-## 9. Revisa tu perfil
+## 11. Revisa tu perfil
 
 Entra a:
 
@@ -127,4 +162,3 @@ https://github.com/TU_USUARIO
 ```
 
 Si todo esta bien, veras el README en tu perfil principal.
-
