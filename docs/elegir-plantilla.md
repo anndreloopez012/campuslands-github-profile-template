@@ -10,6 +10,14 @@ Todas las opciones usan las mismas variables. El alumno puede llenar primero `pl
 | Estilo graficos | Alto | Perfil completo, areas de experiencia, proyectos, stack visual y marca personal | Puede verse cargado si el alumno no depura informacion |
 | Visual con graficos | Alto | Mostrar actividad, repositorios, stack y constancia | Depende de servicios externos para mostrar graficos |
 | Compacta reclutador | Medio | Procesos rapidos de seleccion | Requiere escribir muy claro y sin relleno |
+| Dashboard ejecutivo | Alto | Mostrar perfil como panel profesional | Puede sentirse formal si el alumno quiere algo creativo |
+| Neon dev | Alto | Perfil creativo y moderno | Puede ser demasiado visual para empresas tradicionales |
+| Terminal metrics | Alto | Estilo tecnico tipo consola | Requiere cuidar que el texto sea claro |
+| Arquitectura cloud | Alto | Explicar frontend-backend-datos | El diagrama debe mantenerse simple |
+| Consultor sin graficos | Bajo | Valor profesional sin depender de imagenes | Requiere buena redaccion |
+| Backend sin graficos | Bajo | APIs, servicios y bases de datos | Menos llamativo visualmente |
+| Fullstack sin graficos | Bajo | Mostrar todo el flujo de desarrollo | Puede verse largo si no se depura |
+| Academico sin graficos | Bajo | Convertir formacion en evidencia | Debe evitar sonar como listado de cursos |
 
 ## Cual deberia usar un alumno nuevo
 

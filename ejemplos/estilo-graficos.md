@@ -17,14 +17,14 @@
 <h1 align="center">Hola, soy Carlos Mendez</h1>
 
 <p align="center">
-  <strong>Full Stack Developer Junior | React, Node.js y bases de datos</strong>
+  <strong>Full Stack Developer Junior | Campuslands Stack</strong>
   <br />
   Desarrollo aplicaciones web, APIs REST y paneles administrativos con enfoque en orden, documentacion y resolucion de problemas reales.
 </p>
 
 <div align="center">
   <a href="https://github.com/carlos-mendez-dev">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=800&color=22C55E&center=true&vCenter=true&width=980&lines=Frontend+con+React+y+TypeScript;Backend+con+Node.js+y+Express;Bases+de+datos+SQL+y+NoSQL;GitHub+Flow+y+proyectos+documentados" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=800&color=22C55E&center=true&vCenter=true&width=980&lines=Frontend+con+HTML+CSS+y+JavaScript;Backend+con+Node+Express+Laravel+SpringBoot+y+DotNet;MySQL+y+MongoDB;GitHub+Flow+y+proyectos+documentados" alt="Typing SVG" />
   </a>
 </div>
 
@@ -60,7 +60,7 @@
 ## Stack principal
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,express,mysql,postgres,mongodb,git,github,docker,vscode&perline=10" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=python,github,html,css,js,mysql,mongodb,java,nodejs,php,cs,dotnet,spring,express,laravel,git,docker,vscode&perline=10" alt="Tech stack" />
 </div>
 
 ---
@@ -72,19 +72,19 @@
     <td width="33%">
       <h3>Inventario operativo</h3>
       <p>Sistema para controlar productos, entradas, salidas y alertas de stock.</p>
-      <p><strong>Stack:</strong> React, Node.js, MySQL</p>
+      <p><strong>Stack:</strong> Node.js, Express, MySQL II</p>
       <a href="https://github.com/carlos-mendez-dev/inventario-operativo">Ver proyecto</a>
     </td>
     <td width="33%">
       <h3>API de tickets</h3>
       <p>API REST para soporte interno con usuarios, prioridades y estados.</p>
-      <p><strong>Stack:</strong> Express, PostgreSQL</p>
+      <p><strong>Stack:</strong> Java, Spring Boot, MongoDB II</p>
       <a href="https://github.com/carlos-mendez-dev/api-tickets">Ver proyecto</a>
     </td>
     <td width="33%">
       <h3>Dashboard academico</h3>
       <p>Panel para visualizar avances, notas y entregas de estudiantes.</p>
-      <p><strong>Stack:</strong> React, TypeScript</p>
+      <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
       <a href="https://github.com/carlos-mendez-dev/dashboard-academico">Ver proyecto</a>
     </td>
   </tr>
@@ -122,4 +122,3 @@
 ---
 
 **Perfil actualizado:** Julio 2026
-

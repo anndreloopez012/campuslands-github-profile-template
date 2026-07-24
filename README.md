@@ -56,16 +56,33 @@ campuslands-github-profile-template/
 │   ├── corporativa-clasica.md
 │   ├── estilo-graficos.md
 │   ├── visual-graficos.md
-│   └── compacta-reclutador.md
+│   ├── compacta-reclutador.md
+│   ├── grafico-dashboard-ejecutivo.md
+│   ├── grafico-neon-dev.md
+│   ├── grafico-terminal-metrics.md
+│   ├── grafico-arquitectura-cloud.md
+│   ├── sin-graficos-consultor.md
+│   ├── sin-graficos-backend.md
+│   ├── sin-graficos-fullstack.md
+│   └── sin-graficos-academico.md
 ├── ejemplos/
 │   ├── corporativa-clasica.md
 │   ├── estilo-graficos.md
 │   ├── visual-graficos.md
-│   └── compacta-reclutador.md
+│   ├── compacta-reclutador.md
+│   ├── grafico-dashboard-ejecutivo.md
+│   ├── grafico-neon-dev.md
+│   ├── grafico-terminal-metrics.md
+│   ├── grafico-arquitectura-cloud.md
+│   ├── sin-graficos-consultor.md
+│   ├── sin-graficos-backend.md
+│   ├── sin-graficos-fullstack.md
+│   └── sin-graficos-academico.md
 ├── docs/
 │   ├── guia-paso-a-paso.md
 │   ├── checklist-final.md
 │   ├── como-elegir-tecnologias.md
+│   ├── stack-campuslands.md
 │   ├── elegir-plantilla.md
 │   └── buenas-practicas-corporativas.md
 ├── scripts/
@@ -106,6 +123,7 @@ Cada estudiante debe cambiar:
 - `{{STACK_BASES_DATOS}}`
 - `{{STACK_HERRAMIENTAS}}`
 - `{{SKILLICONS_LIST}}`
+- `{{STACK_CAMPUSLANDS}}`
 
 El archivo [plantillas/VARIABLES.md](plantillas/VARIABLES.md) explica cada variable.
 
@@ -119,6 +137,14 @@ El repositorio incluye varias opciones con las mismas variables:
 | Estilo graficos | [plantillas/estilo-graficos.md](plantillas/estilo-graficos.md) | Perfil visual, completo, con badges, tablas y graficos |
 | Visual con graficos | [plantillas/visual-graficos.md](plantillas/visual-graficos.md) | Perfil moderno con estadisticas automaticas |
 | Compacta reclutador | [plantillas/compacta-reclutador.md](plantillas/compacta-reclutador.md) | Perfil directo para lectura rapida |
+| Dashboard ejecutivo | [plantillas/grafico-dashboard-ejecutivo.md](plantillas/grafico-dashboard-ejecutivo.md) | Perfil visual con panel de capacidades e indicadores |
+| Neon dev | [plantillas/grafico-neon-dev.md](plantillas/grafico-neon-dev.md) | Perfil creativo con efecto typing y actividad |
+| Terminal metrics | [plantillas/grafico-terminal-metrics.md](plantillas/grafico-terminal-metrics.md) | Perfil tipo consola tecnica con metricas |
+| Arquitectura cloud | [plantillas/grafico-arquitectura-cloud.md](plantillas/grafico-arquitectura-cloud.md) | Perfil con diagrama frontend-backend-datos |
+| Consultor sin graficos | [plantillas/sin-graficos-consultor.md](plantillas/sin-graficos-consultor.md) | Perfil elaborado para enfoque consultivo |
+| Backend sin graficos | [plantillas/sin-graficos-backend.md](plantillas/sin-graficos-backend.md) | Perfil elaborado para APIs y datos |
+| Fullstack sin graficos | [plantillas/sin-graficos-fullstack.md](plantillas/sin-graficos-fullstack.md) | Perfil elaborado para desarrollo completo |
+| Academico sin graficos | [plantillas/sin-graficos-academico.md](plantillas/sin-graficos-academico.md) | Perfil elaborado para evidencia academica |
 
 Guia para decidir: [docs/elegir-plantilla.md](docs/elegir-plantilla.md).
 
@@ -132,6 +158,20 @@ Cada plantilla tiene un ejemplo ya completado para que el alumno pueda comparar 
 | Estilo graficos | [ejemplos/estilo-graficos.md](ejemplos/estilo-graficos.md) |
 | Visual con graficos | [ejemplos/visual-graficos.md](ejemplos/visual-graficos.md) |
 | Compacta reclutador | [ejemplos/compacta-reclutador.md](ejemplos/compacta-reclutador.md) |
+| Dashboard ejecutivo | [ejemplos/grafico-dashboard-ejecutivo.md](ejemplos/grafico-dashboard-ejecutivo.md) |
+| Neon dev | [ejemplos/grafico-neon-dev.md](ejemplos/grafico-neon-dev.md) |
+| Terminal metrics | [ejemplos/grafico-terminal-metrics.md](ejemplos/grafico-terminal-metrics.md) |
+| Arquitectura cloud | [ejemplos/grafico-arquitectura-cloud.md](ejemplos/grafico-arquitectura-cloud.md) |
+| Consultor sin graficos | [ejemplos/sin-graficos-consultor.md](ejemplos/sin-graficos-consultor.md) |
+| Backend sin graficos | [ejemplos/sin-graficos-backend.md](ejemplos/sin-graficos-backend.md) |
+| Fullstack sin graficos | [ejemplos/sin-graficos-fullstack.md](ejemplos/sin-graficos-fullstack.md) |
+| Academico sin graficos | [ejemplos/sin-graficos-academico.md](ejemplos/sin-graficos-academico.md) |
+
+## Stack Campuslands
+
+El stack base que pueden usar como referencia esta documentado en [docs/stack-campuslands.md](docs/stack-campuslands.md).
+
+Incluye: Python, GitHub, HTML / CSS, JavaScript, MySQL I, MySQL II, MongoDB I, MongoDB II, Java, Node.js, PHP, C#, Spring Boot, Express, Laravel y .NET.
 
 ## Resultado esperado
 
