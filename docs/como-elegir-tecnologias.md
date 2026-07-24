@@ -23,9 +23,6 @@ Incluye tecnologias para interfaces:
 - HTML
 - CSS
 - JavaScript
-- TypeScript
-- React
-- Tailwind CSS
 
 ### Backend
 
@@ -39,22 +36,23 @@ Incluye tecnologias para servidores y APIs:
 - Spring Boot
 - C#
 - .NET
+- Python
 
 ### Bases de datos
 
 Incluye bases de datos que hayas usado en ejercicios o proyectos:
 
 - MySQL
-- PostgreSQL
+- MySQL II
 - MongoDB
-- SQL Server
+- MongoDB II
 
 ### Herramientas
 
 Incluye herramientas de trabajo:
 
-- Git
 - GitHub
+- Git
 - Docker
 - VS Code
 - Postman
@@ -62,7 +60,7 @@ Incluye herramientas de trabajo:
 ## Ejemplo de mala seleccion
 
 ```text
-HTML, CSS, JavaScript, TypeScript, React, Angular, Vue, Node, Express, Nest, PHP, Laravel, Java, Spring, Python, Django, Flask, MySQL, PostgreSQL, MongoDB, Oracle, AWS, Azure, Docker, Kubernetes
+HTML, CSS, JavaScript, Python, Java, Node.js, Express, PHP, Laravel, C#, .NET, Spring Boot, MySQL I, MySQL II, MongoDB I, MongoDB II, GitHub, Docker
 ```
 
 Problema: parece inflado si el estudiante no tiene proyectos reales con todo eso.
@@ -70,11 +68,10 @@ Problema: parece inflado si el estudiante no tiene proyectos reales con todo eso
 ## Ejemplo de buena seleccion
 
 ```text
-Frontend: HTML, CSS, JavaScript, React
-Backend: Node.js, Express
-Base de datos: MySQL, MongoDB
-Herramientas: Git, GitHub, Docker
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js, Express, PHP, Laravel
+Base de datos: MySQL I, MySQL II, MongoDB I
+Herramientas: GitHub, Git, Docker
 ```
 
 Es mejor verse claro y honesto que saturado.
-

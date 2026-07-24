@@ -28,12 +28,19 @@ STACK_BACKEND=
 STACK_BASES_DATOS=
 STACK_HERRAMIENTAS=
 SKILLICONS_LIST=
+STACK_CAMPUSLANDS=
 ```
 
 Ejemplo para `SKILLICONS_LIST`:
 
 ```text
-html,css,js,ts,react,nodejs,express,mysql,postgres,mongodb,git,github,docker,vscode
+python,github,html,css,js,mysql,mongodb,java,nodejs,php,cs,dotnet,spring,express,laravel,git,docker,vscode
+```
+
+Ejemplo para `STACK_CAMPUSLANDS`:
+
+```text
+Python, GitHub, HTML / CSS, JavaScript, MySQL I, MySQL II, MongoDB I, MongoDB II, Java, Node.js, PHP, C#, Spring Boot, Express, Laravel, .NET
 ```
 
 ## Mensajes principales
@@ -81,9 +88,8 @@ APRENDIZAJE_3=
 Usa frases cortas. No uses espacios directamente; en las URLs deben ir como `+`.
 
 ```text
-TYPING_LINE_1=Frontend+con+React+y+TypeScript
-TYPING_LINE_2=Backend+con+Node.js+y+Express
-TYPING_LINE_3=Bases+de+datos+SQL+y+NoSQL
+TYPING_LINE_1=Frontend+con+HTML+CSS+y+JavaScript
+TYPING_LINE_2=Backend+con+Node+Express+Laravel+SpringBoot+y+DotNet
+TYPING_LINE_3=MySQL+y+MongoDB
 TYPING_LINE_4=GitHub+Flow+y+proyectos+documentados
 ```
-

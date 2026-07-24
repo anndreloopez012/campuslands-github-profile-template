@@ -2,9 +2,9 @@
 
 # Sofia Castillo
 
-### Frontend Developer Junior | Guatemala, Guatemala
+### Software Developer Junior | Guatemala, Guatemala
 
-![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=900&color=0891B2&center=true&vCenter=true&width=900&lines=Interfaces+con+React+y+TypeScript;Consumo+de+APIs+REST;Dashboards+administrativos;GitHub+Flow+y+documentacion)
+![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=900&color=0891B2&center=true&vCenter=true&width=900&lines=Interfaces+con+HTML+CSS+y+JavaScript;Consumo+de+APIs+REST;MySQL+y+MongoDB;GitHub+Flow+y+documentacion)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sofia-castillo-dev)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sofia-castillo-dev)
@@ -16,31 +16,31 @@
 
 ## Sobre mi
 
-Desarrolladora frontend junior en formacion, enfocada en interfaces modernas, componentes reutilizables, consumo de APIs y experiencia de usuario para sistemas administrativos.
+Desarrolladora junior en formacion, enfocada en interfaces web, APIs, bases de datos relacionales y NoSQL, y flujo profesional con GitHub.
 
 > Busco una oportunidad donde pueda aportar en interfaces web reales, aprender de equipos con experiencia y fortalecer buenas practicas de desarrollo.
 
 ## Stack visual
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,git,github,vscode,figma&perline=8" alt="Stack principal" />
+  <img src="https://skillicons.dev/icons?i=python,github,html,css,js,mysql,mongodb,java,nodejs,php,cs,dotnet,spring,express,laravel&perline=8" alt="Stack principal" />
 </div>
 
 ## Tecnologias por area
 
 ```text
-Frontend: HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS
-Backend: Node.js basico, consumo de APIs REST
-Datos: MySQL basico, MongoDB basico
-Herramientas: Git, GitHub, VS Code, Figma
+Frontend: HTML, CSS, JavaScript
+Backend: Python, Java, Node.js, Express, PHP, Laravel, C#, .NET, Spring Boot
+Datos: MySQL I, MySQL II, MongoDB I, MongoDB II
+Herramientas: GitHub, Git, VS Code, Docker, Postman
 ```
 
 ## Proyectos destacados
 
 | Proyecto | Descripcion | Stack | Link |
 |---|---|---|---|
-| Dashboard de ventas | Panel para visualizar metas, ventas y rendimiento por periodo. | React, TypeScript, Chart.js | [Abrir](https://github.com/sofia-castillo-dev/dashboard-ventas) |
-| Gestor de tareas | Aplicacion para administrar tareas, estados y prioridades. | React, Tailwind CSS | [Abrir](https://github.com/sofia-castillo-dev/gestor-tareas) |
+| Dashboard de ventas | Panel para visualizar metas, ventas y rendimiento por periodo. | HTML, CSS, JavaScript | [Abrir](https://github.com/sofia-castillo-dev/dashboard-ventas) |
+| Gestor de tareas | Aplicacion para administrar tareas, estados y prioridades. | Node.js, Express, MongoDB I | [Abrir](https://github.com/sofia-castillo-dev/gestor-tareas) |
 | Catalogo de productos | Interfaz para listar, filtrar y administrar productos. | JavaScript, CSS | [Abrir](https://github.com/sofia-castillo-dev/catalogo-productos) |
 
 ## Indicadores de GitHub
@@ -71,4 +71,3 @@ Herramientas: Git, GitHub, VS Code, Figma
 **Actualizado:** Julio 2026
 
 </div>
-

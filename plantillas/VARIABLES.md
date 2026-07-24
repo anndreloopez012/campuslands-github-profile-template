@@ -26,7 +26,8 @@ Este archivo explica que debe colocar el estudiante en cada variable.
 | `{{STACK_BACKEND}}` | Tecnologias backend separadas por coma |
 | `{{STACK_BASES_DATOS}}` | Bases de datos separadas por coma |
 | `{{STACK_HERRAMIENTAS}}` | Herramientas de trabajo separadas por coma |
-| `{{SKILLICONS_LIST}}` | Lista para skillicons.dev | html,css,js,react,nodejs,mysql,git,github |
+| `{{SKILLICONS_LIST}}` | Lista para skillicons.dev | python,github,html,css,js,mysql,mongodb,java,nodejs,php,cs,dotnet,spring,express,laravel |
+| `{{STACK_CAMPUSLANDS}}` | Stack completo visto en Campuslands | Python, GitHub, HTML / CSS, JavaScript, MySQL I/II, MongoDB I/II, Java, Node.js, PHP, C#, Spring Boot, Express, Laravel, .NET |
 | `{{AREA_DE_INTERES}}` | Frontend, backend, fullstack, datos, mobile, cloud, QA, etc. |
 | `{{APRENDIZAJE_1}}` | Tecnologia o habilidad que estas aprendiendo |
 | `{{APRENDIZAJE_2}}` | Segunda tecnologia o habilidad |
@@ -76,9 +77,9 @@ Importante: las variables `TYPING_LINE_*` van dentro de una URL. Por eso debes u
 Ejemplo:
 
 ```text
-TYPING_LINE_1=Frontend+con+React+y+TypeScript
-TYPING_LINE_2=Backend+con+Node.js+y+Express
-TYPING_LINE_3=Bases+de+datos+SQL+y+NoSQL
+TYPING_LINE_1=Frontend+con+HTML+CSS+y+JavaScript
+TYPING_LINE_2=Backend+con+Node+Express+Laravel+SpringBoot+y+DotNet
+TYPING_LINE_3=MySQL+y+MongoDB
 TYPING_LINE_4=GitHub+Flow+y+proyectos+documentados
 ```
 
@@ -87,7 +88,7 @@ Para `SKILLICONS_LIST`, usa nombres compatibles con `skillicons.dev`.
 Ejemplo:
 
 ```text
-html,css,js,ts,react,nodejs,express,mysql,postgres,mongodb,git,github,docker,vscode
+python,github,html,css,js,mysql,mongodb,java,nodejs,php,cs,dotnet,spring,express,laravel,git,docker,vscode
 ```
 
 ## Reglas

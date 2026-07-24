@@ -9,10 +9,10 @@ Desarrollador backend junior en formacion, enfocado en APIs REST, bases de datos
 
 ## Stack principal
 
-- Frontend: HTML, CSS, JavaScript basico
-- Backend: Node.js, Express, PHP basico
-- Bases de datos: MySQL, PostgreSQL, MongoDB basico
-- Herramientas: Git, GitHub, Docker, Postman, VS Code
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python, Java, Node.js, Express, PHP, Laravel, C#, .NET, Spring Boot
+- Bases de datos: MySQL I, MySQL II, MongoDB I, MongoDB II
+- Herramientas: GitHub, Git, Docker, Postman, VS Code
 
 ## Lo que puedo aportar
 
@@ -26,8 +26,8 @@ Desarrollador backend junior en formacion, enfocado en APIs REST, bases de datos
 
 | Proyecto | Que resuelve | Tecnologias | Enlace |
 |---|---|---|---|
-| API de inventario | Controla productos, stock y movimientos. | Node.js, Express, MySQL | [Ver](https://github.com/luis-hernandez-dev/api-inventario) |
-| API de usuarios | Gestiona autenticacion basica, usuarios y roles. | Express, PostgreSQL | [Ver](https://github.com/luis-hernandez-dev/api-usuarios) |
+| API de inventario | Controla productos, stock y movimientos. | Node.js, Express, MySQL II | [Ver](https://github.com/luis-hernandez-dev/api-inventario) |
+| API de usuarios | Gestiona autenticacion basica, usuarios y roles. | C#, .NET, MySQL I | [Ver](https://github.com/luis-hernandez-dev/api-usuarios) |
 | Servicio de reportes | Genera reportes simples por fecha y categoria. | Node.js, MongoDB | [Ver](https://github.com/luis-hernandez-dev/servicio-reportes) |
 
 ## En aprendizaje
@@ -48,4 +48,3 @@ Desarrollador backend junior en formacion, enfocado en APIs REST, bases de datos
 Busco una oportunidad como Backend Developer Junior para aportar en APIs, bases de datos y servicios internos mientras sigo creciendo en proyectos reales.
 
 **Actualizado:** Julio 2026
-
