@@ -6,4 +6,4 @@ build/
 .env.*
 tmp/
 *.log
-
+graphify-out/

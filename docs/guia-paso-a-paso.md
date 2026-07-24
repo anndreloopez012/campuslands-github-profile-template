@@ -40,7 +40,7 @@ Si el nombre no coincide exactamente, GitHub no mostrara el README en tu perfil.
 Abre:
 
 ```text
-plantilla/DATOS-PERFIL.md
+plantillas/DATOS-PERFIL.md
 ```
 
 Completa los valores con tu informacion real.
@@ -58,7 +58,7 @@ plantillas/README.md
 Elige una opcion:
 
 - corporativa clasica
-- estilo Andre
+- estilo graficos
 - visual con graficos
 - compacta para reclutador
 

@@ -1,13 +1,13 @@
 # Como elegir plantilla
 
-Todas las opciones usan las mismas variables. El alumno puede llenar primero `plantilla/DATOS-PERFIL.md` y luego elegir el diseno que mejor represente su perfil.
+Todas las opciones usan las mismas variables. El alumno puede llenar primero `plantillas/DATOS-PERFIL.md` y luego elegir el diseno que mejor represente su perfil.
 
 ## Comparacion rapida
 
 | Plantilla | Nivel visual | Ideal para | Riesgo |
 |---|---:|---|---|
 | Corporativa clasica | Bajo | Aplicar a empresas tradicionales, practicas, primer empleo | Puede verse simple si no tiene proyectos fuertes |
-| Estilo Andre | Alto | Perfil completo, mentorias, proyectos, servicios, marca personal | Puede verse cargado si el alumno no depura informacion |
+| Estilo graficos | Alto | Perfil completo, areas de experiencia, proyectos, stack visual y marca personal | Puede verse cargado si el alumno no depura informacion |
 | Visual con graficos | Alto | Mostrar actividad, repositorios, stack y constancia | Depende de servicios externos para mostrar graficos |
 | Compacta reclutador | Medio | Procesos rapidos de seleccion | Requiere escribir muy claro y sin relleno |
 
@@ -19,9 +19,9 @@ Usa `corporativa-clasica.md` si:
 - quieres verte profesional sin saturar
 - estas aplicando a practica o primer empleo
 
-## Cual usar si quieres algo parecido al perfil de Andre
+## Cual usar si quieres un estilo visual con graficos
 
-Usa `estilo-andre.md` si:
+Usa `estilo-graficos.md` si:
 
 - tienes varios proyectos
 - quieres mostrar areas de experiencia
@@ -49,4 +49,3 @@ Usa `compacta-reclutador.md` si:
 El diseno ayuda, pero no reemplaza la calidad de los proyectos.
 
 Primero ordena tu informacion. Despues escoge la plantilla.
-
